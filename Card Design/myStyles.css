@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 1080px;
+  width: 1440px;
+  margin: auto;
+}
+
+.container__card--small {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 195px;
+  width: 260px;
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+	padding: 0px;
+	position: relative;
+}
+
+.card__img--spain {
+  width: 100%;
+  height: 142px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__title--spain {
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-bottom: 6px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.card__content--spain {
+	margin-top: 7px;
+	margin-left: 15px;
+	font-size: 1px;
+	font-weight: 200;
+}
+
+.card__label--spain {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	float: right;
+	width: 60px;
+	height: 20px;
+	background-color: #1293D2;
+	font-size: 8px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 3px;
+}
+
+.card__heart--spain {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+}
+
+.card {
+	transition: transform 0.5s;
+}
+
+.card:hover {
+	transform:scale(1.05);
+}
+
+.container__card--middle {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 310px;
+  width: 260px;
+  border-radius: 10px;
+  float: left;
+  margin: 10px;
+	padding: 0px;
+	position: relative;
+}
+
+.card_img--venice {
+  width: 100%;
+  height: 130px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card__title--venice {
+	margin-top: 3px;
+	margin-left: 15px;
+	margin-bottom: 6px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.card__content--venice {
+	height: 40%;
+	margin-top: 7px;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 1px;
+	font-weight: 200;
+	overflow: hidden;
+	opacity: 0.8;
+	background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card__label--italy {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	float: right;
+	width: 60px;
+	height: 20px;
+	background-color: #f10909;
+	font-size: 8px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 3px;
+}
+
+.viewMoreButton {
+	font-size: 13px;
+	color: white;
+	background-color: #0681e1;
+	height: 30px;
+	width: 100px;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -55px;
+	bottom: 30px;
+}
