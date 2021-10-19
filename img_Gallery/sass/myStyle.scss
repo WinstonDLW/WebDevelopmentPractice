@@ -1,0 +1,32 @@
+$height--normal: 195px;
+
+$width--large: 40%;
+$width--middle: 18%;
+$width--small: 10%;
+
+* {
+		box-sizing: border-box;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container {
+	height: 1080px;
+	width: 1440px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: $height--normal;
+  width: $width--middle;
+  border-radius: 10px;
+  margin: 10px;
+	padding: 0px;
+}
+
+
+
+
