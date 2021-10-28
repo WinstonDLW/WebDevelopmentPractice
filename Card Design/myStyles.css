@@ -56,12 +56,6 @@
 	border-radius: 3px;
 }
 
-.card__heart--spain {
-	position: absolute;
-	bottom: 15px;
-	right: 20px;
-}
-
 .card {
 	transition: transform 0.5s;
 }
