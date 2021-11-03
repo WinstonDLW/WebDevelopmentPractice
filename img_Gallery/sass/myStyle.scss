@@ -71,17 +71,40 @@ $buttonBlue: #0681e1;
 	.card__title {
 		margin-top: 3px;
 		margin-left: 15px;
-		margin-bottom: 6px;
+		margin-bottom: 3px;
 		font-size: 15px;
-		font-weight: 400;
 	}
 	.card__content {
 		margin-top: 7px;
 		margin-left: 15px;
 		font-size: 1px;
-		font-weight: 200;
 	}
 	.card__label--spain {
+		top: 20px;
+		right: 15px;
+		float: right;
+	}
+}
+.boboli {
+	background-image: url(../image/bg-4.png);
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-size: contain;
+	.card__title {
+		color: white;
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		font-size: 20px;
+	}
+	.card__content {
+		color: white;
+		position: absolute;
+		bottom: 15px;
+		left: 20px;
+		font-size: 10px;
+	}
+	.card__label--italy{
 		top: 20px;
 		right: 15px;
 		float: right;
@@ -97,12 +120,11 @@ $buttonBlue: #0681e1;
 			transform:scale(1.05);
 		}
 	}
-	.card__title{
+	.card__title {
 		margin-top: 3px;
 		margin-left: 15px;
 		margin-bottom: 6px;
 		font-size: 18px;
-		font-weight: 400;
 	}
 	.card__content {
 		height: 40%;
@@ -110,7 +132,6 @@ $buttonBlue: #0681e1;
 		margin-left: 15px;
 		margin-right: 15px;
 		font-size: 1px;
-		font-weight: 200;
 		overflow: hidden;
 		opacity: 0.8;
 		background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0));

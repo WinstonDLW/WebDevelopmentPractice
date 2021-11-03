@@ -31,14 +31,12 @@
 	margin-left: 15px;
 	margin-bottom: 6px;
 	font-size: 15px;
-	font-weight: 400;
 }
 
 .card__content--spain {
 	margin-top: 7px;
 	margin-left: 15px;
 	font-size: 1px;
-	font-weight: 200;
 }
 
 .card__label--spain {
@@ -86,7 +84,6 @@
 	margin-left: 15px;
 	margin-bottom: 6px;
 	font-size: 18px;
-	font-weight: 400;
 }
 
 .card__content--venice {
@@ -95,7 +92,6 @@
 	margin-left: 15px;
 	margin-right: 15px;
 	font-size: 1px;
-	font-weight: 200;
 	overflow: hidden;
 	opacity: 0.8;
 	background: linear-gradient(180deg, #000000 0%, rgba(0,0,0,0));
