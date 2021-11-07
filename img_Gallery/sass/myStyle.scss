@@ -1,6 +1,6 @@
 $height--normal: 195px;
 $height--high: 315px;
-$width--large: 40%;
+$width--large: 38.4%;
 $width--middle: 18.5%;
 $width--small: 10%;
 $labelColor--blue: #1293D2;
@@ -10,6 +10,8 @@ $buttonBlue: #0681e1;
 * {
 		box-sizing: border-box;
 	  font-family: Arial, Helvetica, sans-serif;
+		padding: 0px;
+		margin: 0px;
   }
 .container {
 	height: 1080px;
@@ -23,7 +25,6 @@ $buttonBlue: #0681e1;
   	width: $width--middle;
   	border-radius: 10px;
   	margin: 10px;
-		padding: 0px;
 		position: relative;
 		overflow: hidden;
 	}
@@ -33,6 +34,21 @@ $buttonBlue: #0681e1;
 	&__card--high {
 		height: $height--high;
 	}
+	&__card--wide {
+		width: $width--large;
+	}
+}
+.container--high {
+	height: $height--high;
+	width: $width--middle;
+	margin: 10px;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 6px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
 }
 .card__label--spain{
 	position: absolute;
@@ -96,6 +112,7 @@ $buttonBlue: #0681e1;
 		bottom: 20px;
 		left: 20px;
 		font-size: 20px;
+		margin: 20px 0;
 	}
 	.card__content {
 		color: white;
@@ -103,6 +120,7 @@ $buttonBlue: #0681e1;
 		bottom: 15px;
 		left: 20px;
 		font-size: 10px;
+		margin: 10px 0;
 	}
 	.card__label--italy{
 		top: 20px;
