@@ -15,8 +15,8 @@
 }
 .container__card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 18.5%;
   border-radius: 10px;
+  width: 18.5%;
   margin: 10px;
   position: relative;
   overflow: hidden;
@@ -26,22 +26,28 @@
 }
 .container__card--high {
   height: 315px;
+  justify-content: space-between;
 }
 .container__card--wide {
   width: 38.4%;
 }
-
 .container--high {
   height: 315px;
   width: 18.5%;
   margin: 10px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 6px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
+}
+.container--high .container__card--normal {
+  width: 100%;
+  margin: 0px;
+}
+.container--high .container__card--small {
+  width: 40%;
+  height: 30%;
+  margin: 0px 0px 25px 0px;
 }
 
 .card__label--spain {

@@ -22,8 +22,8 @@ $buttonBlue: #0681e1;
 	align-content: flex-start;
 	&__card {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  	width: $width--middle;
   	border-radius: 10px;
+		width: $width--middle;
   	margin: 10px;
 		position: relative;
 		overflow: hidden;
@@ -33,22 +33,29 @@ $buttonBlue: #0681e1;
 	}
 	&__card--high {
 		height: $height--high;
+		justify-content: space-between;
 	}
 	&__card--wide {
 		width: $width--large;
 	}
-}
-.container--high {
-	height: $height--high;
-	width: $width--middle;
-	margin: 10px;
-	border-style: solid;
-	border-color: #000000;
-	border-width: 6px;
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	align-content: flex-start;
+	&--high {
+		height: $height--high;
+		width: $width--middle;
+		margin: 10px;
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		.container__card--normal {
+			width: 100%;
+			margin: 0px;
+		}
+		.container__card--small {
+			width: 40%;
+			height: 30%;
+			margin: 0px 0px 25px 0px;
+		}
+	}
 }
 .card__label--spain{
 	position: absolute;
